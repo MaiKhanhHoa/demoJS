@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <input id="nhapvao" type="text" oninput="hienra()">
+    <h3 id="write">Write:</h3>
+
+</body>
+    <script>
+      function hienra() {
+        let hienthi=document.getElementById("nhapvao").value;
+        document.getElementById("write").innerHTML="Write: "+hienthi;
+      }
+    </script>
+</html>

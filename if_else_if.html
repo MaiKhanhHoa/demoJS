@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+<script>
+  let nhapten = prompt("Nhap ten nguoi dung");
+  if (nhapten=="admin") {
+    let matkhau = prompt("Nhap mat khau");
+    if (matkhau=="master") {
+      alert("welcome");
+    }
+    else if (matkhau=="null") {
+      alert("canceled");
+    }
+    else {
+      alert("wrong password");
+    }
+  }
+  else if (nhapten=="null") {
+    alert("canceled");
+  }
+  else {
+      alert("i don't know you");
+  }
+</script>
+</html>
